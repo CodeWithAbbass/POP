@@ -1,0 +1,582 @@
+.Home_HeroSection {
+  height: 100vh;
+}
+
+.bg-video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.ActionContainer {
+  z-index: 2;
+  bottom: 12%;
+}
+
+.Home .topborder {
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  top: -26%;
+  left: -10%;
+}
+
+
+.Home .Logo {
+  width: 100%;
+  max-width: 300px;
+}
+
+.Home p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+}
+
+.Home .ActionBtn {
+  background-color: black;
+  border: 1px solid black;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  min-width: 150px;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Home .ActionBtn:hover {
+  transform: translateX(5px);
+  transition: all 0.3s ease-in-out;
+  border: 1px solid white;
+  background-color: transparent;
+}
+
+
+
+/* 2nd section */
+.SecretSourceContainer {
+  height: 100%;
+  /* overflow-x: hidden; */
+}
+
+.SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info {
+  width: 80%;
+  background-color: rgb(0 151 178 / 17%);
+  padding: .8rem 1.8rem;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info>.title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  color: rgb(119, 247, 109);
+  font-weight: bold;
+  direction: ltr;
+  margin-left: 0em;
+  line-height: 1.38762092em;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0em;
+  filter: drop-shadow(0em 0em 0.01653125em rgba(20, 211, 2, 0.95)) drop-shadow(0em 0em 0.08265625em rgba(26, 233, 9, 0.75)) drop-shadow(0em 0em 0.24796875em rgba(20, 187, 5, 0.44));
+  transform: translateZ(0px);
+  margin: 5px 0;
+}
+
+.SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info>.unity {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 50px;
+  color: #ffffff;
+  font-weight: 900;
+  direction: ltr;
+  margin-left: 0em;
+  line-height: 1.38762092em;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0em;
+  margin: 5px 0;
+}
+
+.SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info>.gaming-info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 500;
+  direction: ltr;
+  margin-left: 0em;
+  line-height: 1.38762092em;
+  text-align: left;
+  text-transform: none;
+  letter-spacing: 0em;
+  margin: 5px 0;
+}
+
+.SecretSourceLogoContainer {
+  width: 80%;
+  height: 100%;
+}
+
+.SecretSourceCol {
+
+  background: url("../assets/box.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding: calc(8rem - 12px) 0;
+}
+
+.SecretSourceContainer>.SecretSource>.d-flex>.row>img {
+  z-index: -1;
+}
+
+
+.PinkPaint {
+  z-index: 6;
+  top: 0%;
+  left: 0%;
+  transform: translate(0%, -50%);
+}
+
+/* 3rd section */
+.container_2 {
+  height: 100%;
+}
+
+.container_2>.container>.skills-meet {
+  padding: 7rem 0;
+}
+
+.container_2>.container>.skills-meet>.col-12>.side-image-1 {
+  width: 150px;
+  position: absolute;
+  top: -6%;
+  left: -9%;
+  transform: rotate(323deg);
+  z-index: -1;
+}
+
+.container_2>.container>.skills-meet>.col-12>.skills-title {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container_2>.container>.skills-meet>.col-12>.skills-title:nth-child(3) {
+  font-family: "Open Sans", sans-serif;
+  color: #ffcf00;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.container_2>.container>.skills-meet>.col-12>.skills-info {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 1.47615456em;
+  text-transform: none;
+  letter-spacing: 0em;
+  margin: 10px 0;
+}
+
+.container_2>.container>.skills-meet>.col-12>.button {
+  font-family: "Open Sans", sans-serif;
+  background: #ff0099;
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  margin: 10px 0;
+  float: left;
+}
+
+.container_2>.container>.skills-meet>.col-12>.side-image-2 {
+  width: 200px;
+  position: absolute;
+  top: 95px;
+  right: 65px;
+  transform: rotate(404deg);
+  z-index: -1;
+}
+
+.container_2>.container>.skills-meet>.col-12>.recording-game {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_2>.container>.skills-meet>.col-12>.recording-game>img {
+  object-fit: cover;
+  position: absolute;
+}
+
+.container_2>.container>.skills-meet>.col-12>.recording-game>.racing-video {
+  width: 94%;
+  object-fit: cover;
+}
+
+.container_2>.border-bottom-plate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.container_2>.border-bottom-plate>img {
+  width: 10%;
+}
+
+/* 4th section */
+.container_3 {
+  height: 100%;
+}
+
+.container_3>.core-vision {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0;
+}
+
+.container_3>.core-vision .bg-image {
+  width: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  opacity: 1;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+}
+
+.CoreVisionTitleContainer {
+  /* background: url("../assets/drop-image.png") no-repeat center;
+  background-size: cover; */
+  width: 100%;
+  overflow: visible;
+}
+
+.container_3>.core-vision .core-vision-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+
+}
+
+.container_3>.core-vision>.container-fluid>.core-vision-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.container_3>.core-vision>.container-fluid>.core-vision-info>.col-12>.video-circle {
+  width: 260px;
+  height: 260px;
+  border-radius: 100%;
+  -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
+  -webkit-transform: rotate(0.000001deg);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  object-fit: cover;
+}
+
+.container_3>.core-vision>.container-fluid>.core-vision-info>.col-12>h1 {
+  margin-top: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container_3>.core-vision>.container-fluid>.core-vision-info>.col-12>p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* 5th section */
+.container_4 {
+  height: 120vh !important;
+}
+
+.container_4>.bg-video {
+  width: 100%;
+  height: 120vh;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container_4>.development-roadmap {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container_4>.development-roadmap>.bg-image {
+  width: 30%;
+  position: absolute;
+  top: 75px;
+  opacity: 1;
+  z-index: -1;
+}
+
+.container_4>.development-roadmap>.roadmap-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+  color: white;
+}
+
+.v-images>.one,
+.v-images>.two,
+.v-images>.three {
+  width: 100px;
+  position: relative;
+  left: -100px;
+}
+
+.container_4>.development-roadmap>.container-fluid>.row {
+  margin-top: 100px;
+}
+
+.container_4>.development-roadmap>.container-fluid>.row>.col-12>.v-info {
+  margin-top: -50px;
+}
+
+.container_4>.development-roadmap>.container-fluid>.row>.col-12>.v-info>h1 {
+  font-size: 25px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container_4>.development-roadmap>.container-fluid>.row>.col-12>.v-info>p {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+/* 6-section */
+.container_5 {
+  height: 100vh !important;
+}
+
+.container_5>.bg-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.container_5>.container-fluid {
+  padding: 0 50px;
+}
+
+.container_5>.container-fluid>.row>.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.container_5>.container-fluid>.row>.col-12>p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  text-shadow: 1px 1px 5px #fff;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.container_5>.container-fluid>.row>h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 5px #fff;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.container_5>.container-fluid>.row>h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 5px #fff;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.container_5>.container-fluid>.row>ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: start;
+}
+
+.container_5>.container-fluid>.row>ul>li>a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-shadow: 1px 1px 5px #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.container_5>.container-fluid>.row>ul>li:nth-child(1) {
+  margin-right: 15px !important;
+  margin-left: 0px !important;
+}
+
+/* ******************************************************************************** */
+/* Responsive */
+/* ******************************************************************************** */
+
+@media (max-width: 575px) {
+  .ActionContainer {
+    width: 100%;
+    bottom: 6%;
+  }
+
+  .Home p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info {
+    width: 100%;
+  }
+
+  .SecretSourceLogoContainer {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .container_3>.core-vision .bg-image {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .SecretSourceLogoContainer {
+    width: 100%;
+  }
+
+  .SecretSourceCol {
+    padding: calc(6rem - 12px) 0;
+    background-size: auto 92%;
+  }
+
+  .SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info>.title,
+  .SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info>.unity,
+  .container_2>.container>.skills-meet>.col-12>.skills-title,
+  .container_2>.container>.skills-meet>.col-12>.skills-title:nth-child(3) {
+    font-size: 35px;
+  }
+
+  .SecretSourceContainer>.SecretSource>.d-flex>.SecretSource-info>.gaming-info,
+  .container_5>.container-fluid>.row>.col-12>p,
+  .container_5>.container-fluid>.row>h1,
+  .container_5>.container-fluid>.row>ul>li>a {
+    font-size: 18px;
+  }
+
+  .SecretSourceContainer>.SecretSource>.d-flex>.row>.col-lg-6 {
+    width: 40%;
+    height: 129% !important;
+  }
+
+  .SecretSourceContainer>.SecretSource>.d-flex>.row>img,
+  .container_2>.container>.skills-meet>.col-12>.side-image-1 {
+    display: none;
+  }
+
+  .SecretSourceContainer>.BorderBottom {
+    position: absolute;
+    bottom: -100px !important;
+    left: 0;
+  }
+
+  .container_2>.container>.skills-meet>.col-12>.skills-info {
+    font-size: 16px;
+  }
+
+  .container_3>.core-vision .bg-image {
+    width: 100%;
+    top: 30%;
+  }
+
+  .container_3>.core-vision>.container-fluid>.core-vision-info>.col-12>.video-circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .container_3>.core-vision>.container-fluid>.core-vision-info>.col-12>p {
+    font-size: 14px;
+  }
+
+  .container_4>.development-roadmap>.bg-image {
+    width: 59%;
+    position: absolute;
+    top: -22px;
+    opacity: 1;
+    z-index: -1;
+  }
+
+  .container_4>.development-roadmap>.container-fluid>.row {
+    margin-top: 26px;
+  }
+
+  .footer-border {
+    margin-top: -45px !important;
+  }
+
+  .footer>img {
+    width: 320px !important;
+  }
+}
+
+
+@media (max-width:425px) {
+  .SecretSourceCol {
+    padding: calc(3rem - 8px) 0;
+    background-size: auto 100%;
+  }
+}

@@ -1,0 +1,26 @@
+.Header .nav-link {
+    color: rgb(172, 233, 139);
+    font-family: 'Big Shoulders Display', cursive;
+    text-align: center;
+    filter: drop-shadow(0.05em 0.05em 0.01785031em rgba(47, 133, 1, 0.95)) drop-shadow(0.1em 0.1em 0.08925156em rgba(56, 157, 3, 0.750000)) drop-shadow(0.1em 0.1em 0.26775469em rgba(56, 157, 3, 0.440000));
+    transform: translateZ(0px);
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.ClipImage {
+    max-width: 193px;
+    top: -0.5rem;
+    left: 0;
+}
+
+.MenuNeonClip {
+    width: 70px;
+    transform: rotate(270deg) translate(0%, -100%)
+}
+@media (max-width: 522px) {
+    .Header .list-group{
+        flex-direction: column!important;
+    }
+}

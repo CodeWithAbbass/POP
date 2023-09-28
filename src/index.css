@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Big+Shoulders+Display:wght@400;900&family=Roboto:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: black;
+    outline: 1px solid #4ed500; */
+}
+
+body {
+  /* font-family: "Open Sans", sans-serif; */
+  font-family: 'Big Shoulders Display', cursive;
+}
